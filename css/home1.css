@@ -1,0 +1,20 @@
+div{
+    width: 250px;
+    height: 250px;
+    background: #ff8119;
+    margin-top: 10px;
+}
+.block1{
+    border-radius: 0 30px 30px 0;
+}
+.block2{
+    border-radius: 0 125px 0 125px;
+    background-color: rgb(63, 179, 63);
+}
+.block3{
+    border-radius: 10px 125px 30px 125px;
+    background-color: yellow;
+}
+.block4{
+    border-radius: 50%;
+}

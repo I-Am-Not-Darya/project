@@ -1,0 +1,78 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+ul li{
+    display: inline;
+    cursor: pointer;
+    color: blueviolet;
+    transition: all 1s linear;
+}
+ul li span:hover{
+border-bottom: 1px solid blueviolet;
+}
+main{
+    display: flex;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+section{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+div{
+    position: absolute;
+}
+.section1 .block1{
+    width: 450px;
+    height: 250px;
+    border: 1px solid black;
+    bottom: 50px;
+    left: 24px;
+}
+
+.section1 .block2{
+    width: 250px;
+    height: 70px;
+    border: 1px solid black;
+    border-bottom: 2px solid white;
+    bottom: 301px;
+    left: 124px;
+}
+.section1 .block3{
+    width: 70px;
+    height: 324px;
+    border-right: 1px dashed black;
+    border-left: 1px dashed black;
+    bottom: 50px;
+    left: 214px;
+}
+
+.section2 .block1{
+    width: 300px;
+    height: 265px;
+    border: 1px solid black;
+    bottom: 50px;
+    left: 100px;
+}
+.section2 .block2{
+    width: 300px;
+    height: 55px;
+    border: 1px solid black;
+    bottom: 316px;
+    left: 100px;
+}
+.section2 .block3{
+    width: 145px;
+    height: 323px;
+    border-right: 1px dashed black;
+    border-left: 1px dashed black;
+    bottom: 50px;
+    left: 175px;
+}
